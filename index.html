@@ -1,0 +1,57 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js.js"></script>
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="navi">
+            <button id="settings">
+                Settings
+            </button>
+            <div class="settings">
+                <p class="settingsText bold">
+                    Work Timer Settings
+                </p>
+                <button class="settingsButton" id="addTime">Add Time</button>
+                <button class="settingsButton" id="decTime">Decrease Time</button>
+                <p class="settingsText" id="timerSetting">
+
+                </p>
+                <p class="settingsText bold">
+                    Break Timer Settings
+                </p>
+                <button class="settingsButton" id="addTimeBreak">Add Time</button>
+                <button class="settingsButton" id="decTimeBreak">Decrease Time</button>
+                <p class="settingsText" id="timerSettingBreak">
+
+                </p>
+            </div>
+        </div>
+        <div class="main text-center">
+            <h1>Pomodoro Clock!</h1>
+            <p class="appText" id="currentPhase">
+
+            </p>
+            <div class="startstop">
+
+                <button class="appButton" id="startTimer">Start Timer</button>
+                <button class="appButton" id="stopTimer">Stop Timer</button>
+
+            </div>
+            <!-- TODO: Add Div for timer countdown -->
+            <div id="countdownBar">
+                <div id="countdownBarFill">
+                    <p id="activityTimer">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

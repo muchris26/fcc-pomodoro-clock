@@ -1,0 +1,85 @@
+body {
+    background-color: #FED8A7;
+}
+/*settings for the nav bar.*/
+.navi {
+    height: 50px;
+    background-color: #8F8CAA;
+}
+#settings {
+    height: 50px;
+    width: 480px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: #8F8CAA;
+}
+#settings:hover,.settingsButton:hover,.appButton:hover {
+    background-color: #625F89;
+}
+.settings {
+    background-color: #090440;
+    font-size: 18px;
+    color: white;
+    width: 480px;
+    padding: 10px;
+    position: fixed;
+}
+.settingsButton {
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    background-color: #8F8CAA;
+}
+.settingsButton:active,.appButton:active {
+    background-color: #D0B189;
+}
+.settingsText {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bold {
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Setting for the main area.*/
+.main {
+    margin-top: 50px;
+}
+.appButton {
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    color: white;
+    background-color: #8F8CAA;
+}
+
+.appText {
+    font-size: 24px;
+    padding: 10px;
+    color: #090440;
+}
+#activityTimer {
+    text-align: left;
+    font-size: 24px;
+    padding: 8px;
+    color: white;
+
+}
+#countdownBar {
+    background-color: #BBBACC;
+    height: 50px;
+    width: 404px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#countdownBarFill {
+    background-color: #1F1A56;
+    color: white;
+}
